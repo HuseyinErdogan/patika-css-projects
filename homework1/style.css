@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(198, 140, 231);
+    font-family: serif;
+}
+nav h1{
+    font-size:xx-large;
+    font-family: serif;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5rem;
+    color: white;
+    border-radius: 50%;
+    border: 1px double white;
+
+}
+nav ul{
+    justify-content:space-between;
+    text-align: center;
+    padding-top: 4rem;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    padding-inline: 3rem;
+    
+}
+a{
+    text-decoration: none;
+    font-size: x-large;
+    color:white;
+    transition: 1s;
+    border-radius: 3rem;
+   
+}
+
+a:hover{
+    
+    background-color:rgb(130, 10, 241);
+    
+    color: white;
+}
+section{
+    justify-content: center;
+    text-align: center;
+}
+section h3{
+    padding-top: 5rem;
+    font-size: x-large;
+}
+section p{
+
+    font-size: large;
+    padding: 2rem;
+}
+hr{
+  position: absolute;
+  margin-top: 2rem;
+  left: 15rem;
+  right: 15rem;
+  color: white;
+}
+#home-img{
+    padding: 2rem;
+    height: 30rem;
+    width: 40%;
+}
+section{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card{
+    padding: 3rem;
+    display:inline-block;
+    left: 30%;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40rem;
+    
+}
+.movie-name{
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: bisque;
+}
+.imdb-point{
+    font-size: large;
+    font-weight: bold;
+    
+}
+.card img{
+    padding:2rem;
+    height: 30rem;
+    width: 100%;
+}
+.container{
+    padding: 3rem;
+}
+.container h2{
+    color: bisque;
+    font-family: sans-serif;
+}
+.container img{
+    padding: 3rem;
+}
